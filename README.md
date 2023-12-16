@@ -1,39 +1,43 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+User stories
+Open a post: As a Site User, I can click on a post so that I can read the full text.
 
-Welcome,
+AC1 When a blog post title is clicked on a detailed view of the post is seen.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+View comments: As a Site User / Admin I can view comments on an individual post so that I can read the conversation
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+AC1 Given one or more user comments the admin can view them.
+AC2 Then a site user can click on the comment thread to read the conversation.
 
-## Codeanywhere Reminders
+Account registration: As a Site User I can register an account so that I can comment on a post.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+AC1 Given an email a user can register an account.
+AC2 Then the user can log in.
+AC3 When the user is logged in they can comment.
 
-`python3 -m http.server`
+Comment on a post: As a Site User I can leave comments on a post so that I can be involved in the conversation
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+AC1 When a user comment is approved
+AC2 Then a user can reply
+AC3 Given more than one comment then there is a conversation thread
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+Modify or delete comment on a post: As a Site User I can modify or delete my comment on a post so that I can be involved in the conversation
 
-`http_server`
+AC1 Given a logged in user, they can modify their comment
+AC2 Given a logged in user, they can delete their comment
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Manage posts: As a Site Admin I can create, read, update and delete posts so that I can manage my blog content
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+AC1 Given a logged in user, they can create a blog post
+AC2 Given a logged in user, they can read a blog post
+AC3 Given a logged in user, they can update a blog post
+AC4 Given a logged in user, they can delete a blog post
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Create drafts: As a Site Admin I can create draft posts so that I can finish writing the content later
 
-To log into the Heroku toolbelt CLI:
+AC1 Given a logged in user, they can save a draft blog post
+AC2 Then they can finish the content at a later time
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Approve comments: As a Site Admin I can approve or disapprove comments so that I can filter out objectionable comments
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+AC1 Given a logged in user, they can approve a comment
+AC2 Given a logged in user, they can disapprove a comment
