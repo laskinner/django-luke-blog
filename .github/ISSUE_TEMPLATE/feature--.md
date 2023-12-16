@@ -1,7 +1,7 @@
 ---
 name: 'Feature: '
 about: Template for creating new features
-title: ''
+title: 'Feature: '
 labels: ''
 assignees: laskinner
 
