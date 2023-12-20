@@ -31,7 +31,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "8000-ajgreaves-blog-lesson-pl-lfv6kgfdws.us2.codeanyapp.com",
-    ".herokuapp.com"
+    ".herokuapp.com",
     "127.0.0.1"
 ]
 
